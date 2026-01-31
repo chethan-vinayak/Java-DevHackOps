@@ -228,16 +228,6 @@ Date:   Sun Jan 28 17:39:00 2018 -0500
 
     [update] entropy check
 
-diff --git a/checks_test.go b/checks_test.go
---- a/checks_test.go
-+++ b/checks_test.go
-@@ -28,0 +37,1 @@
-+               "aws_secret= \"AKIAIMNOJVGFDXXXE4OA\"":          true,
-
-```
-
-## Pre-Commit hook
-
 You can run Gitleaks as a pre-commit hook by copying the example `pre-commit.py` script into
 your `.git/hooks/` directory.
 
